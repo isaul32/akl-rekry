@@ -5868,20 +5868,29 @@ button.close {
 body {
   background-color: #1d1d1d;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
+  color: #D4D4D4;
   text-align: justify; }
 
 .container {
   background: rgba(49, 49, 49, 0.6);
   padding-bottom: 20px; }
 
+@media (max-width: 991px) {
+  .container {
+    margin: 0;
+    width: auto; }
+  body {
+    text-align: left; } }
+
 h1 {
   font-size: 40px;
   font-weight: bold;
+  text-align: left;
   margin-bottom: 0; }
 
 .title-helper {
   color: #52b6a8;
+  text-align: left;
   font-size: 30px; }
 
 h2 {
@@ -5894,6 +5903,7 @@ h2 {
 
 h3,
 h4 {
+  color: white;
   border-bottom: 1px solid #52b6a8; }
 
 hr {
@@ -5901,5 +5911,19 @@ hr {
 
 .label {
   font-size: 100%; }
+
+.akl-pills li a {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 5px 10px;
+  color: #52b6a8; }
+
+.akl-pills li a:hover {
+  color: white;
+  background-color: transparent; }
+
+.akl-pills li.active a, .akl-pills li.active a:hover, .akl-pills li.active a:focus {
+  color: white;
+  background-color: #006052; }
 
 /*# sourceMappingURL=style.css.map */
