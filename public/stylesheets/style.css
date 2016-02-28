@@ -5883,7 +5883,6 @@ body {
 h1 {
   font-size: 40px;
   font-weight: bold;
-  text-align: left;
   margin-bottom: 0; }
 
 .title-helper {
@@ -5903,6 +5902,9 @@ h3,
 h4 {
   color: white;
   border-bottom: 1px solid #52b6a8; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: left; }
 
 hr {
   border-top: 2px solid #006052; }
